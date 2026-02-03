@@ -1,0 +1,94 @@
+/* TAG SELECTOR */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* background image + positioning */
+    background-image: url("images/track.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ID SELECTOR */
+#title {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+/* CLASS SELECTOR */
+.navbar {
+    background-color: #111;
+    overflow: hidden;
+}
+
+/* navigation links */
+.navbar a {
+    float: left;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* hover effect */
+.navbar a:hover {
+    background-color: red;
+}
+
+/* dropdown */
+.dropdown {
+    float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* content box */
+.content {
+    background-color: rgba(255,255,255,0.9);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* image styling */
+.car-img {
+    width: 300px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+/* form styling */
+form {
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 20px;
+}
